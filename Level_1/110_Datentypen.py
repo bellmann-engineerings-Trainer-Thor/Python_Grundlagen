@@ -1,4 +1,4 @@
-# Datentypen
+# Datentypen 
 
 print("Wahrheitswert (Boolean)")
 is_happy = False
