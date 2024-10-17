@@ -1,4 +1,4 @@
-# Dies ist ein einfacher Kommentar. Er wird nicht vom Computer interpretiert.
+# Dies ist ein einfacher Kommentar. Er wird nicht vom Computer interpretiert. 
 
 """
 Mehrzeilige Kommentare können
