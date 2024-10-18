@@ -29,10 +29,12 @@ class Roboter:
         self.name = name
 
 
-
 a = Roboter("Bernd")
 print(a.name)  # Herbert
 
 b = Roboter("Stefan")
 b.name = "Bernd"
 print(b.name)  # Herbert
+
+c = Roboter("Peter")
+print(c.name)  # Peter

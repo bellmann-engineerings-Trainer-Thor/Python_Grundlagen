@@ -10,7 +10,7 @@ enemy2 = Enemy()
 enemy3 = Enemy()
 enemy4 = Enemy()
 
-print(Enemy.staticAttribut)
+# print(Enemy.staticAttribut)
 # print(enemy1.staticAttribut)
 
 print(Enemy.objektAttribut)     # type object 'Enemy' has no attribute 'objektAttribut'
