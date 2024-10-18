@@ -1,7 +1,7 @@
 # Dies ist ein einfacher Kommentar. Er wird nicht vom Computer interpretiert.
 
 """
-Mehrzeilige Kommentare können
+Mehrzeilige Kommentare können  
 mit drei einfachen Anführungszeichen erstellt werden.
 """
 
