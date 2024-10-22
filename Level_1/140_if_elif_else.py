@@ -29,6 +29,7 @@ else:               # SONST
     print("In x ist keine 7 oder 11 oder 17!")
 
 print("Verschachteln")
+x = 77
 if x != 7:
     if x != 11:
         if x != 17:
@@ -46,6 +47,6 @@ else:
 
 
 
-print("Verschachteln Kurzform")
-if x != 7 and x != 11 and x != 17:
-    print("In x ist keine 7 oder 11 oder 17!")
+# print("Verschachteln Kurzform")
+# if x != 7 and x != 11 and x != 17:
+#     print("In x ist keine 7 oder 11 oder 17!")

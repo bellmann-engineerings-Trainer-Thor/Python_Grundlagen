@@ -22,7 +22,7 @@ verkettet3 = "Hallo" " Welt"
 print(verkettet3)
 
 print("Verkettung mit dem %-Operator")
-verkettet4 = "%s %s" % (string1, string2)
+verkettet4 = "%s irgendwas %s" % (string1, string2)
 print(verkettet4)
 
 print("Verkettung mit der format() Methode")

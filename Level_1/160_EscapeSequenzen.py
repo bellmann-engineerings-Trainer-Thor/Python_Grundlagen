@@ -14,5 +14,5 @@ print("Das ist ein backslash: \\")
 
 
 print("Unicode-Zeichen")
-print("\u0278")
+print("\u0280")
 # Unicode-Zeichen gibt es tausende wenn du sie brauchst google danach

@@ -7,10 +7,7 @@
 # übergeben werden können.
 # Der Standardwert des Mehrwertsteuersatzes soll 19 sein.
 # Der Algorithmus zum Berechnen des Nettopreises soll nur in einer Funktion vorkommen.
-
-def berechne_netto_preis(brutto, steuersatz=19):
-    returnwert = (brutto / (100 + steuersatz) * 100)
-    return (brutto / (100 + steuersatz) * 100)
+#
 
 
 # Beispiel:
