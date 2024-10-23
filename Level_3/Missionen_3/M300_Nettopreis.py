@@ -11,6 +11,6 @@
 
 
 # Beispiel:
-print(berechne_netto_preis(116, 16))  # 100.0
-print(berechne_netto_preis(brutto=116, steuersatz=16))  # 100.0
-print(berechne_netto_preis(119))      # 100.0
+# print(berechne_netto_preis(116, 16))  # 100.0
+# print(berechne_netto_preis(brutto=116, steuersatz=16))  # 100.0
+# print(berechne_netto_preis(119))      # 100.0

@@ -26,5 +26,6 @@ print(5 in meinTupel) # True
 
 print("Versuch, den Tupel zu leeren (nicht möglich)")
 meinTupel.clear()
-print(meinTupel)    # (1, 5, 2, 3, 4, 5, 'string', True)
+print(meinTupel)
+print("Wenn das nicht zu sehen ist, ist das Programm Abgestürzt")
 
