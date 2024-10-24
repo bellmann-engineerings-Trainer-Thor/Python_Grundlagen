@@ -27,9 +27,8 @@
 # print("finally")
 # try:
 #     # Versuche, eine Datei zu öffnen, die möglicherweise nicht existiert, was eine FileNotFoundError auslösen könnte
-#     # datei = open("nicht_existierende_datei.txt")
-#     # inhalt = datei.read()
-#     c = "hallo"
+#     datei = open("nicht_existierende_datei.txt")
+#     inhalt = datei.read()
 # except FileNotFoundError:
 #     # Diese Zeile wird ausgeführt, wenn eine FileNotFoundError-Exception auftritt
 #     print("Fehler: Datei wurde nicht gefunden.")
@@ -47,7 +46,7 @@ try:
     # 1. ZeroDivisionError
     ergebnis = 1 / 0
     # 2. FileNotFoundError
-    # open('nicht_existierendes_file.txt')
+    open('nicht_existierendes_file.txt')
     # 3. ValueError
     int("keineZahl")
     # 4. TypeError
@@ -62,6 +61,8 @@ try:
     None.length()
     # 8. ImportError
     from sys import nicht_existierend
+except Exception as e:
+    print(f"Ein anderer Fehler ist aufgetreten: {e}")
 except ZeroDivisionError:
     print(f"Division durch Null.")
 except FileNotFoundError:
@@ -78,8 +79,6 @@ except AttributeError:
     print("Attribut existiert nicht.")
 except ImportError:
     print("Import fehlgeschlagen.")
-except Exception as e:
-    print(f"Ein anderer Fehler ist aufgetreten: {e}")
 
 # Weitere mögliche Exceptions:
 # - NameError: Wenn eine lokale oder globale Name nicht gefunden wird.
