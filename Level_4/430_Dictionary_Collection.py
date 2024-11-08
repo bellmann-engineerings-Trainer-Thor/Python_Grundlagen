@@ -30,7 +30,7 @@ print(meinDictionary)  # {'name': 'Max', 'alter': 35, 'beruf': 'Lehrer', 'hobby'
 print("Überprüfen, ob ein Schlüssel im Dictionary vorhanden ist")
 ist_enthalten = "name" in meinDictionary
 print(ist_enthalten)  # True
-print("stadt" in meinDictionary)  # False
+print('Max' in meinDictionary)  # False
 
 print("Alle Schlüssel-Wert-Paare durchlaufen")
 for schluessel, wert in meinDictionary.items():

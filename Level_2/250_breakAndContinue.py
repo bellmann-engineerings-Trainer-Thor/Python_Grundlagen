@@ -1,5 +1,3 @@
-
-
 print("break beendet die Schleife")
 for i in range(5):
     if i == 3:

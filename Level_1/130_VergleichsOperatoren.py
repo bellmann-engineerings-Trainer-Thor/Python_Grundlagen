@@ -2,9 +2,10 @@ print("Vergleichsoperatoren")
 print("==, !=, <, >, <=, >=")
 print("Ein Ausdruck mit einem Vergleichsoperator evaluiert immer zu einem Boolean (True oder False)")
 
+
 print(3 == 4)  # False      # gleich
 print(2 != 7)  # True       # nichtgleich
-print(3 < 5)  # True        # kleiner als
+print(3 < 3)  # False        # kleiner als
 print(2 > 7)  # False       # groesser als
 print(3 <= 3)  # True       # kleinergleich
 print(2 >= 3)  # False      # groessergleich

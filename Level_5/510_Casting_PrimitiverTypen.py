@@ -8,6 +8,7 @@
 # Vom String zum Integer
 x = "42"
 y = int(x)
+print(type(x))  # <class 'str'>
 print(type(y))  # <class 'int'>
 
 
@@ -28,6 +29,7 @@ print(type(y))  # <class 'int'>
 # Vom String zum Float
 x = "42"
 y = float(x)
+print(y)  # 42.0
 print(type(y))  # <class 'float'>
 
 # Vom Integer zum Float

@@ -3,8 +3,9 @@
 
 print("Iteration über ein Tupel")
 tupel = (1, 2, 3)
+value = 0
 for bratwurst in tupel:
-    print(bratwurst)
+    print(f"bratwurst hat nun den Wert: {bratwurst}")
 
 print("Iteration über eine Liste")
 liste = [4, 5, 6]

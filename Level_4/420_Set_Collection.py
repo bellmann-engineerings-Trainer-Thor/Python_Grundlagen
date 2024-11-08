@@ -26,11 +26,13 @@ print(meinSet) # {1, 2, 3, 4, 5, 6, 7, 8, 9}
 print("Element aus dem Set entfernen")
 print("meinSet.remove(9)")
 meinSet.remove(9) # Entfernt das Element 9 aus dem Set, wirft einen Fehler, wenn das Element nicht existiert
+# meinSet.remove(9) # Entfernt das Element 9 aus dem Set, wirft einen Fehler, wenn das Element nicht existiert
 print(meinSet) # {1, 2, 3, 4, 5, 6, 7, 8}
 
 print("Element sicher aus dem Set entfernen")
 print("meinSet.discard(8)")
 meinSet.discard(8) # Entfernt das Element 8 aus dem Set, kein Fehler, wenn das Element nicht existiert
+# meinSet.discard(8) # Entfernt das Element 8 aus dem Set, kein Fehler, wenn das Element nicht existiert
 print(meinSet) # {1, 2, 3, 4, 5, 6, 7}
 
 print("Ein zufälliges Element entfernen")

@@ -44,9 +44,9 @@
 print("Alle Exceptions")
 try:
     # 1. ZeroDivisionError
-    ergebnis = 1 / 0
+    # ergebnis = 1 / 0
     # 2. FileNotFoundError
-    open('nicht_existierendes_file.txt')
+    # open('nicht_existierendes_file.txt')
     # 3. ValueError
     int("keineZahl")
     # 4. TypeError
@@ -61,14 +61,14 @@ try:
     None.length()
     # 8. ImportError
     from sys import nicht_existierend
-except Exception as e:
-    print(f"Ein anderer Fehler ist aufgetreten: {e}")
+# except Exception as e:
+#     print(f"Ein anderer Fehler ist aufgetreten: {e}")
 except ZeroDivisionError:
     print(f"Division durch Null.")
 except FileNotFoundError:
     print("Datei nicht gefunden.")
-except ValueError:
-    print("Ungültiger Wert.")
+except ValueError as v:
+    print(f"Ungültiger Wert. {v}")
 except TypeError:
     print("Typinkompatibilität.")
 except IndexError:
